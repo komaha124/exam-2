@@ -343,7 +343,7 @@ hr{
 }
 .form-left{
     width: 50%;
-    font-size: 20px;
+    font-size: 18px;
 }
 .form-right{
     width: 50%;
@@ -371,7 +371,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     color: #2c4058;
-    padding: 60px;
+    padding: 30px;
     padding-bottom: 80px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
