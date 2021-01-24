@@ -633,3 +633,15 @@ a {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
 }
+.screenNav__point {
+    color: rgb(99, 3, 128);
+}
+.foto-slaider {
+    cursor: pointer;
+}
+.foto-slaider:hover {
+    opacity: 0.5;
+}
+.img3:hover {
+    opacity: 0.5;
+}
