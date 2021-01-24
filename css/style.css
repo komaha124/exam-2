@@ -170,6 +170,9 @@ body {
     font-size: 14px;
     cursor: pointer;
     background-color: transparent;
+    padding: 20px;
+    text-decoration: none;
+    color: #2c4058;
 }
 .butt:hover{
     opacity: 0.5;
@@ -226,7 +229,7 @@ hr{
     background-color: white;
     height: 520px;
     width: 95%;
-    
+    padding: 3px;
 }
 .title-gall{
     font-size: 26px;
@@ -312,6 +315,9 @@ hr{
     font-size: 14px;
     cursor: pointer;
     background-color: transparent;
+    padding: 20px;
+    text-decoration: none;
+    color: #2c4058;
 }
 .butt-foto:hover{
     opacity: 0.5;
@@ -319,6 +325,7 @@ hr{
 .sect-5-button{
     padding-top: 50px;
     text-align: center;
+    margin-bottom: 50px;
 }
 #sect-6{
     margin-bottom: -5px;
@@ -438,4 +445,37 @@ form{
 }
 .burger-menu{
     display: none;
+}
+
+.screenNav {
+    position: fixed;
+    top: 50%;
+    right: 40px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+}
+.screenNav__point {
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -webkit-transition: all 0.6s ease-out;
+    }
+    
+.screenNav__point:hover {
+    -webkit-transform: scale(1.55);
+        -moz-transform: scale(1.55);
+        -o-transform: scale(1.55); 
 }
