@@ -2,7 +2,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('./ajax-loader.gif') center center no-repeat;
+    background: #fff;
 }
 
 /* Icons */
@@ -178,7 +178,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 30px;
+    font-size: 20px;
     line-height: 20px;
 
     position: absolute;
@@ -188,17 +188,18 @@
     width: 20px;
     height: 20px;
 
-    content: '•';
+    content: '○';
     text-align: center;
 
-    opacity: .25;
-    color: white;
+    opacity: 1;
+    color: #ffffff;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li.slick-active button:before
 {
-    opacity: .75;
-    color: white;
+    content: '●';
+    opacity: 1;
+    
 }
